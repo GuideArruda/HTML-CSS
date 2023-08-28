@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tentar abrir esse site em vários dispositivos diferentes ou apenas aumente e diminua o tamanho do site</p>
+
+    <picture>
+        <source media="(max-width: 700px )" srcset="Imagens/foto-p.png.png" type="Image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png.png" type="Image/png">
+      <img src="Imagens/foto-g.png.png" alt="Imagem flexível">
+    </picture>
+    <h1>Áudios em HTML5</h1>
+    <p>Reproduzindo áudio em HTML5</p>
+    <audio preload="auto" autoplay controls loop >
+        <source src="midia/Tin Spirit - Freedom Trail Studio.mp3" type="audio/mpeg">
+          <source src="midia/Tin Spirit - Freedom Trail Studio.mp3" type="audio/ogg">
+        <source src="mídia/Tin Spirit - Freedom Trail Studio.mp3.33.wav" srcset="udio/wav">
+        <p>Infelizmente seu naveador não consegue reproduzir áudio.<a href="">Clique aqui para baixar o arquivo mp3</a> </p>
+    </audio>
+</body>
+</html>
